@@ -1,0 +1,104 @@
+
+html,
+body {
+	height: 100%;
+}
+
+body {
+	/*margin: 0;
+	background-color: rgb(255, 255, 255);
+	font-family: sans-serif;
+	font-size: 14px;
+	color: rgb(0, 0, 128);*/
+}
+
+.staff-app {
+	padding: 20px 0;
+}
+
+.staff-app-lf {
+	padding: 20px 0 0 0;
+}
+
+.staff-app-lf .list-group {
+	padding-bottom: 20px;
+}
+
+.staff-app-lf .list-group-item {
+	padding: 2px 15px;
+	cursor: pointer;
+}
+
+.staff-menu-exp {
+	display: inline-block;
+	width: 14px;
+	height: 12px;
+	margin: 0 0 0 2px;
+	border: 0 none;
+	padding: 0;
+	background-color: transparent;
+	cursor: pointer;
+	vertical-align: middle;
+}
+
+.staff-menu-exp:after {
+	content: '';
+	display: block;
+	width: 10px;
+	height: 5px;
+	margin: 6px 0 0 2px;
+	border-top: 5px dashed;
+	border-right: 5px solid transparent;
+	border-left: 5px solid transparent;
+	border-bottom: 0;
+	padding: 0;
+}
+
+.staff-menu .list-group {
+	margin: 5px 0 10px 0;
+	padding-bottom: 0;
+	box-shadow: none;
+}
+
+.staff-menu .list-group .list-group-item {
+	margin: 0;
+	border: 0;
+}
+
+.staff-menu-exp.on:after {
+}
+
+.staff-menu-empty {
+	margin: 5px 0 10px 0;
+	padding: 2px 15px;
+	opacity: 0.5;
+}
+
+.staff-app-rt {
+}
+
+.staff-app-rt .btn {
+	margin-right: 15px;
+}
+
+.staff-app-rt .panel {
+	margin-top: 30px;
+}
+
+.staff-app .panel-body {
+	margin-bottom: 0;
+	padding-bottom: 35px;
+}
+
+.staff-app-rt .panel-body {
+	margin-top: 0;
+	padding-top: 35px;
+}
+
+.staff-app-rt .panel-body h4 {
+	margin-top: -10px;
+}
+
+.staff-form .btn {
+	margin-top: 20px;
+}

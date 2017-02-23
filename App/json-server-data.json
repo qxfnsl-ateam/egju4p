@@ -1,0 +1,52 @@
+﻿{
+	"departments": [
+		{"id":4, "name":"Отдел 4"},
+		{"id":5, "name":"Отдел 5"},
+		{"id":1, "name":"Отдел 1"},
+		{"id":2, "name":"Отдел 2"},
+		{"id":3, "name":"Отдел 3"}
+	],
+	"employees": [
+		{"id":1, "firstName":"Иван", "lastName":"Иванов", "departmentId":1},
+		{"id":2, "firstName":"Пётр", "lastName":"Петров", "departmentId":1},
+		{"id":3, "firstName":"Сидор", "lastName":"Сидоров", "departmentId":1},
+
+		{"id":4, "firstName":"Михаил", "lastName":"Ломоносов", "departmentId":2},
+		{"id":5, "firstName":"Дмитрий", "lastName":"Менделеев", "departmentId":2},
+		{"id":6, "firstName":"Николай", "lastName":"Лобачевский", "departmentId":2},
+		{"id":7, "firstName":"Пафнутий", "lastName":"Чёбышев", "departmentId":2},
+		{"id":8, "firstName":"Иван", "lastName":"Павлов", "departmentId":2},
+		{"id":9, "firstName":"Илья", "lastName":"Мечников", "departmentId":2},
+		{"id":10, "firstName":"Игорь", "lastName":"Курчатов", "departmentId":2},
+		{"id":11, "firstName":"Леонид", "lastName":"Канторович", "departmentId":2},
+		{"id":12, "firstName":"Александр", "lastName":"Прохоров", "departmentId":2},
+
+		{"id":13, "firstName":"Михаил", "lastName":"Глинка", "departmentId":3},
+		{"id":14, "firstName":"Пётр", "lastName":"Чайковский", "departmentId":3},
+		{"id":15, "firstName":"Николай", "lastName":"Римский-Корсаков", "departmentId":3},
+		{"id":16, "firstName":"Александр", "lastName":"Скрябин", "departmentId":3},
+		{"id":17, "firstName":"Сергей", "lastName":"Рахманинов", "departmentId":3},
+		{"id":18, "firstName":"Сергей", "lastName":"Прокофьев", "departmentId":3},
+		{"id":19, "firstName":"Дмитрий", "lastName":"Шостакович", "departmentId":3},
+
+		{"id":20, "firstName":"Алесандр", "lastName":"Пушкин", "departmentId":4},
+		{"id":21, "firstName":"Михаил", "lastName":"Лермонтов", "departmentId":4},
+		{"id":22, "firstName":"Николай", "lastName":"Гоголь", "departmentId":4},
+		{"id":23, "firstName":"Фёдор", "lastName":"Достоевский", "departmentId":4},
+		{"id":24, "firstName":"Антон", "lastName":"Чехов", "departmentId":4},
+		{"id":25, "firstName":"Лев", "lastName":"Толстой", "departmentId":4},
+		{"id":26, "firstName":"Владимир", "lastName":"Маяковский", "departmentId":4},
+
+		{"id":27, "firstName":"Константин", "lastName":"Циолковский", "departmentId":5},
+		{"id":28, "firstName":"Сергей", "lastName":"Королёв", "departmentId":5},
+		{"id":29, "firstName":"Михаил", "lastName":"Янгель", "departmentId":5},
+		{"id":30, "firstName":"Михаил", "lastName":"Тихонравов", "departmentId":5},
+		{"id":31, "firstName":"Валентин", "lastName":"Глушко", "departmentId":5},
+		{"id":32, "firstName":"Юрий", "lastName":"Гагарин", "departmentId":5},
+		{"id":33, "firstName":"Герман", "lastName":"Титов", "departmentId":5},
+		{"id":34, "firstName":"Алексей", "lastName":"Леонов", "departmentId":5},
+		{"id":35, "firstName":"Георгий", "lastName":"Гречко", "departmentId":5},
+		{"id":36, "firstName":"Георгий", "lastName":"Добровольский", "departmentId":5},
+		{"id":37, "firstName":"Сергей", "lastName":"Крикалев", "departmentId":5}
+	]
+}
