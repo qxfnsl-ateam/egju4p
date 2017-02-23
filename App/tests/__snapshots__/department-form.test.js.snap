@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DepartmentForm /> DOM tree 1`] = `
+<form
+  className="staff-form staff-form-dep"
+>
+  <h4
+    className="staff-form-title text-primary"
+  >
+    Изменить информацию об отделе
+  </h4>
+  <input
+    name="id"
+    type="hidden"
+    value={7}
+  />
+  <div
+    className="form-group"
+  >
+    <label
+      className="staff-dep-name"
+      htmlFor="staff-dep-name"
+    >
+      Название
+    </label>
+    <input
+      className="form-control"
+      defaultValue="Department 7"
+      id="staff-dep-name"
+      name="name"
+      pattern="[^\\\\\\\\s]{3,}"
+      required={true}
+      type="text"
+    />
+  </div>
+  <button
+    className="staff-form-update btn btn-default"
+    onClick={[Function]}
+  >
+    Сохранить
+  </button>
+  <button
+    className="staff-form-delete btn btn-danger"
+    onClick={[Function]}
+  >
+    Удалить
+  </button>
+  <button
+    className="staff-form-reset btn btn-default"
+    type="reset"
+  >
+    Сбросить
+  </button>
+</form>
+`;

@@ -1,0 +1,160 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<StaffAppCls /> DOM tree 1`] = `
+<div
+  className="staff-app container"
+>
+  <aside
+    className="staff-app-lf col-sm-4"
+  >
+    <div
+      className="panel panel-primary"
+    >
+      <div
+        className="panel panel-heading"
+      >
+        <h4
+          className="panel-title"
+        >
+          Отделы и сотрудники
+        </h4>
+      </div>
+      <ul
+        className="staff-menu list-group"
+      >
+        <li
+          className="staff-menu-item on list-group-item"
+          onClick={[Function]}
+          value={1}
+        >
+          Department 1
+          <button
+            className="staff-menu-exp"
+            onClick={[Function]}
+          />
+        </li>
+        <li
+          className="staff-menu-item list-group-item"
+          onClick={[Function]}
+          value={2}
+        >
+          Department 2
+          <button
+            className="staff-menu-exp on"
+            onClick={[Function]}
+          />
+          <ul
+            className="staff-menu list-group"
+          >
+            <li
+              className="staff-menu-item list-group-item"
+              onClick={[Function]}
+              value={1}
+            >
+              Last 1 First 1
+            </li>
+            <li
+              className="staff-menu-item list-group-item"
+              onClick={[Function]}
+              value={2}
+            >
+              Last 2 First 2
+            </li>
+          </ul>
+        </li>
+        <li
+          className="staff-menu-item list-group-item"
+          onClick={[Function]}
+          value={3}
+        >
+          Department 3
+          <button
+            className="staff-menu-exp"
+            onClick={[Function]}
+          />
+        </li>
+      </ul>
+    </div>
+  </aside>
+  <div
+    className="staff-app-rt col-sm-8"
+  >
+    <h2
+      className="staff-app-title text-primary"
+    >
+      Персонал
+    </h2>
+    <button
+      className="staff-app-new staff-app-new-dep btn btn-default"
+      onClick={[Function]}
+    >
+      Новый отдел
+    </button>
+    <button
+      className="staff-app-new staff-app-new-emp btn btn-default"
+      onClick={[Function]}
+    >
+      Новый сотрудник
+    </button>
+    <div
+      className="panel panel-default"
+    >
+      <div
+        className="panel panel-body"
+      >
+        <form
+          className="staff-form staff-form-dep"
+        >
+          <h4
+            className="staff-form-title text-primary"
+          >
+            Изменить информацию об отделе
+          </h4>
+          <input
+            name="id"
+            type="hidden"
+            value={1}
+          />
+          <div
+            className="form-group"
+          >
+            <label
+              className="staff-dep-name"
+              htmlFor="staff-dep-name"
+            >
+              Название
+            </label>
+            <input
+              className="form-control"
+              defaultValue="Department 1"
+              id="staff-dep-name"
+              name="name"
+              pattern="[^\\\\\\\\s]{3,}"
+              required={true}
+              type="text"
+            />
+          </div>
+          <button
+            className="staff-form-update btn btn-default"
+            onClick={[Function]}
+          >
+            Сохранить
+          </button>
+          <button
+            className="staff-form-delete btn btn-danger"
+            onClick={[Function]}
+          >
+            Удалить
+          </button>
+          <button
+            className="staff-form-reset btn btn-default"
+            type="reset"
+          >
+            Сбросить
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+`;

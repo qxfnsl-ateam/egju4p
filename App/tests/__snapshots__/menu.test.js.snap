@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Menu /> DOM tree 1`] = `
+<ul
+  className="staff-menu list-group"
+>
+  <li
+    className="staff-menu-item on list-group-item"
+    onClick={[Function]}
+    value={1}
+  >
+    Ityem 1
+    <button
+      className="staff-menu-exp"
+      onClick={[Function]}
+    />
+  </li>
+  <li
+    className="staff-menu-item list-group-item"
+    onClick={[Function]}
+    value={2}
+  >
+    Ityem 2
+    <button
+      className="staff-menu-exp on"
+      onClick={[Function]}
+    />
+    <embed />
+  </li>
+  <li
+    className="staff-menu-item list-group-item"
+    onClick={[Function]}
+    value={3}
+  >
+    Ityem 3
+    <button
+      className="staff-menu-exp"
+      onClick={[Function]}
+    />
+  </li>
+</ul>
+`;

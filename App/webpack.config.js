@@ -1,6 +1,5 @@
 'use strict';
 
-//const NODE_ENV = process.env.NODE_ENV;
 const NODE_ENV = ((v) => {v = v ? v.trim().toLowerCase() : 0; return v && (v == 'prod' || v == 'production') ? 'production' : 'development';})(process.env.NODE_ENV);
 console.log('process.env.NODE_ENV:', process.env.NODE_ENV, ', NODE_ENV:', NODE_ENV);
 
@@ -28,7 +27,6 @@ let config = {
 					babelrc: false,
 					plugins: [
 						['transform-runtime', {'polyfill':false, 'regenerator':true}],
-						//'transform-react-remove-prop-types',
 						'transform-react-constant-elements',
 						'transform-react-inline-elements'
 					],

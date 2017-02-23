@@ -1,0 +1,98 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<EmployeeForm /> DOM tree 1`] = `
+<form
+  className="staff-form staff-form-emp"
+  onReset={[Function]}
+>
+  <h4
+    className="staff-form-title text-primary"
+  >
+    Изменить информацию о сотруднике
+  </h4>
+  <input
+    name="id"
+    type="hidden"
+    value={7}
+  />
+  <div
+    className="form-group"
+  >
+    <label
+      className="staff-emp-firstName"
+      htmlFor="staff-emp-firstName"
+    >
+      Имя
+    </label>
+    <input
+      className="form-control"
+      defaultValue="First_Name"
+      id="staff-emp-firstName"
+      name="firstName"
+      pattern="[^\\\\\\\\s]{3,}"
+      required={true}
+      type="text"
+    />
+  </div>
+  <div
+    className="form-group"
+  >
+    <label
+      className="staff-emp-lastName"
+      htmlFor="staff-emp-lastName"
+    >
+      Фамилия
+    </label>
+    <input
+      className="form-control"
+      defaultValue="Last_Name"
+      id="staff-emp-lastName"
+      name="lastName"
+      pattern="[^\\\\\\\\s]{3,}"
+      required={true}
+      type="text"
+    />
+  </div>
+  <div
+    className="form-group"
+  >
+    <label
+      className="staff-emp-parent3"
+      htmlFor="staff-emp-parent3"
+    >
+      Отдел
+    </label>
+    <select
+      className="form-control"
+      defaultValue={3}
+      id="staff-emp-parent3"
+      name="departmentId"
+      required={true}
+    >
+      <option
+        value=""
+      >
+        Выберите отдел
+      </option>
+    </select>
+  </div>
+  <button
+    className="staff-form-update btn btn-default"
+    onClick={[Function]}
+  >
+    Сохранить
+  </button>
+  <button
+    className="staff-form-delete btn btn-danger"
+    onClick={[Function]}
+  >
+    Удалить
+  </button>
+  <button
+    className="staff-form-reset btn btn-default"
+    type="reset"
+  >
+    Сбросить
+  </button>
+</form>
+`;

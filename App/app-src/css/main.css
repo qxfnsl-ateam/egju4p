@@ -29,6 +29,14 @@ body {
 	cursor: pointer;
 }
 
+.staff-menu-item.on {
+	font-weight: bold;
+}
+
+.on .staff-menu-item {
+	font-weight: normal;
+}
+
 .staff-menu-exp {
 	display: inline-block;
 	width: 14px;
